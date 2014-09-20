@@ -21,27 +21,6 @@ fi
 export PATH=/home/y/bin:$HOME/local/bin:/home/y/bin32:/home/y/bin64:/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/home/mysql/bin
 export EDITOR="vim"
 
-#export LANG=en_US.ISO8859-1
-#export LC_CTYPE=zh_TW.UTF-8
-#export LANG=en_US.UTF-8
-#export LC_ALL=en_US.UTF-8
-#export LC_ALL=C
-#export LANG=en_US.ISO8859-1
-#export LANG=zh_TW.UTF-8
-#export LC_CTYPE=zh_TW.UTF-8
-#export locale=zh_TW.UTF-8
-
-
-#---------------------------------------------------------------------
-# oracle
-#---------------------------------------------------------------------
-export ORACLE_HOME="/home/y/libexec/oracle"
-export TNS_ADMIN="/home/y/conf/oracle"
-export NLS_LANG="AMERICAN_AMERICA.ZHT16MSWIN950"
-export NLS_DATE_FORMAT="yyyy/mm/dd hh24:mis"
-
-# set root
-export ROOT=/home/y/
 
 # set terminal in 256-color
 set xterm-256color
