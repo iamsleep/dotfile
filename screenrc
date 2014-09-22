@@ -94,7 +94,10 @@ bind u encoding utf8 utf8
 # Ctrl + s : 進入複製/捲動模式(C-a esc)
 #bindkey "^=" copy
 
-bindkey "^j" next
-bindkey "^J" next
-bindkey "^k" prev
-bindkey "^K" prev
+#bindkey "^j" next
+#bindkey "^J" next
+#bindkey "^k" prev
+#bindkey "^K" prev
+
+# reloaded screenrc
+bind R eval "source $HOME/.screenrc" "echo '.screenrc reloaded!'"
