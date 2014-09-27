@@ -1,5 +1,6 @@
 # ------------------------------------------------------------------------------
 # SCREEN SETTINGS
+# http://www.softpanorama.org/Utilities/Screen/screenrc_examples.shtml
 # ------------------------------------------------------------------------------
 
 startup_message off
