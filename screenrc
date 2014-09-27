@@ -45,7 +45,7 @@ bind } history
 hardstatus on
 activity "%c activity -> %n%f %t"
 #caption always "%{=B wk}%-w%{kw}%n %t%{-}%+w %-="
-caption always "%{kw}%-w%{=B kw}%n %t%{-}%+w %-="
+caption always "%{bw}%-w%{=B kw}%n %t%{-}%+w %-="
 
 hardstatus alwaysignore
 hardstatus alwayslastline "%{= .K} [%l]%<%=%{= .d}$USER%{= .d}@%H %=%{= .m} %Y/%m/%d%{= .M} %1c "
